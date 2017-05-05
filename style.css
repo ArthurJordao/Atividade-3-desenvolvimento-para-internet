@@ -1,0 +1,266 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+padding:0 ;
+}
+h1 img {
+	display: ;
+}
+img {
+	border:;
+}
+a {
+	color: ;
+}
+a:hover {
+	color: ;
+}
+.left {
+	float: ;
+}
+.right {
+	float: ;
+}
+.more {
+	text-align: ;
+}
+.clear {
+	clear: ;
+}
+
+body {
+	background: ;
+	text-align: ;
+	font: ;
+	color: ;
+	padding-bottom: ;
+}
+
+/** layout **/
+#wrapper {
+	text-align: ;
+	margin: ;
+	width: ;
+	background: ;
+  	position: ;
+	}
+
+#header {
+  background:;
+  height: ;
+}
+#logo {
+  position: ;
+  top: ;
+  left: ;
+  width: ;
+  color: ;
+}
+#logo h1 {
+  font: ;
+}
+#logo p {
+  margin: ;
+  font-weight: ;
+}
+
+#cart {
+  position: ;
+  top: ;
+  left: ;
+  width: ;
+  background: ;
+  width: ;
+}
+#cart-top {  }
+#cart-bot {  }
+#cart-cart {  }
+#cart-cart {
+  padding: ;
+  color: ;
+}
+#cart p {
+  margin: ;
+}
+#cart .orange {
+  color: ;
+  font-size: ;
+}
+#cart a {
+  color: ;
+  font-size: ;
+}
+
+#nav {
+  background: ;
+  position: ;
+  top: ;
+  left: ;
+  width: ;
+  padding: ;
+  text-align: ;
+}
+#nav li {
+  list-style: ;
+  display: ;
+  color: ;
+}
+#nav a {
+  text-decoration: ;
+  color: ;
+}
+#gallery {
+  position: ;
+  top: ;
+  left: ;
+  width: ;
+}
+#gallery li {
+  list-style: ;
+  text-indent: ;
+  float: ;
+  overflow: ;
+  height: ;
+}
+#gallery .gwomen {
+  background: ;
+  width: ;
+}
+#gallery .gkids {
+  background: ;
+  width: ;
+}
+#gallery .gmen {
+  background: ;
+  width: ;
+}
+
+#body {
+  padding-top: ;
+  background-color:;
+}
+#categories {
+  float: ;
+  width: ;
+}
+#seasonal, #collection {
+  float: ;
+  width: ;
+  background: ;
+  margin-bottom: ;
+}
+#seasonal .inner, #collection .inner {
+  padding: ;
+}
+#seasonal p, #collection p {
+  margin: ;
+}
+
+.more a {
+  font-size: ;
+  color: ;
+  text-decoration: ;
+}
+.more a:hover {
+  text-decoration: ;
+}
+
+h3 {
+  font: ; 
+  color: ;
+}
+
+h2 {
+  font: ; 
+  color: ;
+  padding-bottom: ;
+}
+#categories h2 {
+  color: ;
+  padding: ;
+  background: ;
+}
+#categories li {
+  background: ;
+  border-top: ;
+  list-style: ;
+  font-size: ;
+  padding: ;
+}
+#categories a {
+  text-decoration: ;
+  color: ;
+}
+#categories a:hover {
+  text-decoration: ;
+}
+
+#collection {
+  background: ;
+}
+#collection .inner {
+  padding-right: ;
+}
+#minigal {
+  float: ;
+  width: ;
+  margin-top: ;
+  margin-bottom: ;
+}
+#minigal div {
+  float: ;
+  margin: ;
+}
+#collection ul {
+  margin-left: ;
+}
+#collection li {
+  margin: ;
+  color: ;
+  font-size: ;
+  font-weight: ;
+  font-family: ;
+}
+#collection p {
+  width: ;
+  margin-left: ;
+}
+
+#seas-one, #seas-two, #seas-three {
+  height: ;
+}
+
+#seas-one {
+  float: ;
+  width: ;
+  margin-right: ;
+  background: ;
+}
+#seas-two {
+  float: ;
+  width: ;
+  margin-right: ;
+  background: ;
+}
+#seas-three {
+  float: ;
+  width: ;
+  background: ;
+}
+
+#seas p {
+  text-align: ;
+  color: ;
+  margin: ;
+  font-size: ;
+  font-weight: ;
+}
+#seas p.date {
+  margin-top: ;
+  font-size: ;
+}
+
+#copyright {
+  text-align: ;
+  font-size: ;
+  padding: ;
+}
