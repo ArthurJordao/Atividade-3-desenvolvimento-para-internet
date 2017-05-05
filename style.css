@@ -42,7 +42,7 @@ body {
 	margin: 37px auto; /* adiciona uma margem de 37px no topo e em baixo de elemento e deixa o navegador calcular a margem da lateral do elemento */
 	width: 672px; /* deixa o tamanho da largura com 672px */
 	background: #FFFFFF; /* muda a cor do plano de fundo para preto */
-  	position: relative; /* deixa a posição relativa ao elemento pai */
+  	position: relative; /* deixa a posição relativa ao site */
     border-radius: 30px; /* deixa os cantos arredondados */
 	}
 
@@ -96,8 +96,8 @@ body {
 #nav {
   background: #4B5360; /* altera a cor de fundo para um azul */
   position: absolute; /* altera a posição do elemento para absoluto */
-  top: 101px; /* da uma distancia de 101px do elemento ao elemento pai */
-  left: 287; /* altera a distancia para 287px do elemento pai */
+  top: 101px; /* da uma distancia de 101px */
+  left: 287; /* altera a distancia para 287px */
   width: 385px; /* altera a largura para 385px */
   padding: 9px 0; /* altera o preenchimento para 9px no topo e na parte inferior do elemento e retira o preenchimento das laterais do elemento */
   text-align: center;
@@ -113,8 +113,8 @@ body {
 }
 #gallery {
   position: absolute; /* deixa a posição absoluta */
-  top: 155px; /* move o elemento em 155px do topo do elemento pai */
-  left: 287; /* move o elemento em 287 do topo do elemento pai */
+  top: 155px; /* move o elemento em 155px do topo */
+  left: 287; /* move o elemento em 287 do topo */
   width: 385px; /* altera a largura do elemento para 385px */
 }
 #gallery li {
