@@ -43,11 +43,13 @@ body {
 	width: 672px; /* deixa o tamanho da largura com 672px */
 	background: #FFFFFF; /* muda a cor do plano de fundo para preto */
   	position: relative; /* deixa a posição relativa ao elemento pai */
+    border-radius: 30px; /* deixa os cantos arredondados */
 	}
 
 #header {
   background: #D9D1BC url(images/header.jpg) no-repeat; /* muda a cor do cabeçalho da página e adiciona uma imagem */
   height: 266px; /* configura o tamanho da altura do elemento para 266px */
+  border-radius: 30px; /* deixa os cantos arredondados */
 }
 #logo {
   position: absolute; /* configura o logo para sua posição ser absuluta em relação a pagina */
@@ -136,132 +138,132 @@ body {
 }
 
 #body {
-  padding-top: 3px;
-  background-color #FFF:;
+  padding-top: 3px; /* adiciona um preenchimento de 3px no topo */
+  background-color #FFF; /* muda a cor de fundo para preto */ 
 }
 #categories {
-  float: left;
-  width: 195px;
+  float: left; /* posiciona o elemento para a esquerda */
+  width: 195px; /* altera a largura para 195px */
 }
 #seasonal, #collection {
-  float: right;
-  width: 474px;
-  background: #D4CAB6;
-  margin-bottom: 2px;
+  float: right; /* posciona o elemento para a direita */
+  width: 474px; /* altera a largura para 474px */
+  background: #D4CAB6; /* altera a cor de fundo para uma cor meio bege */
+  margin-bottom: 2px; /* altera a margem de baixo para 2px*/
 }
 #seasonal .inner, #collection .inner {
-  padding: 6px 12px;
+  padding: 6px 12px; /* adiciona um preenchimento de 6px em cima e em baixo do elemento e um preenchimento de 12px nas laterais */
 }
 #seasonal p, #collection p {
-  margin: 0.9em 0;
+  margin: 0.9em 0; /* adiciona uma margem de 0.9 em relação a fonte do elemento pai no topo e em baixo e retira as margens das laterais */
 }
 
 .more a {
-  font-size: 12px;
-  color: #000;
-  text-decoration: none;
+  font-size: 12px; /* altera o tamanho da fonte para 12px */
+  color: #000; /* altera a cor para preto */
+  text-decoration: none; /* retira o sublinhado do link */
 }
 .more a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* adiciona o sublinhado no link quando ele estiver selecionado */
 }
 
 h3 {
-  font: bold 14px "arial narrow", arial, sans-serif; 
-  color: #1B1812;
+  font: bold 14px "arial narrow", arial, sans-serif; /* altera a fonte para arial narrow ou arial ou uma fonte da família não serifado em negrito e com 14px de tamanho */
+  color: #1B1812; /* altera a cor do h3 para uma cor preta */
 }
 
 h2 {
-  font: 18px "arial narrow", arial, sans-serif; 
-  color: #695F4C;
-  padding-bottom: 10px;
+  font: 18px "arial narrow", arial, sans-serif; /* altera a fonte para arial narrow ou arial ou uma fonte da família não serifado com 14px de tamanho */
+  color: #695F4C; /* altera a  cor da fonte para um estilo de marrom */
+  padding-bottom: 10px; /* altera o preenchimento da parte de baixo do elemento para 10px */
 }
 #categories h2 {
-  color: #FFF;
-  padding: 4px 0 5px 39px;
-  background: #847A67;
+  color: #FFF; /* altera a cor do elemento para preto */
+  padding: 4px 0 5px 39px; /* altera o preenchimento do elemento para 4px no topo, 0 na direita, 5px em baixo e 39px na esquerda */
+  background: #847A67; /* muda a cor de fundo para um marrom claro */
 }
 #categories li {
-  background: #D4CAB6 left url(images/bullet.gif) no-repeat; 
-  border-top: 1px solid #F4EFDF;
-  list-style: none;
-  font-size: 12px;
-  padding: 7px 0 8px 35px;
+  background: #D4CAB6 left url(images/bullet.gif) no-repeat; /* muda a cor de fundo para um bege uma uma imagem a esquerda */
+  border-top: 1px solid #F4EFDF; /* adiciona uma borda solida de 1px com uma cor tipo creme */
+  list-style: none; /* retira o estilo da lista */
+  font-size: 12px; /* muda o tamaho da fonte para 12px */
+  padding: 7px 0 8px 35px; /* altera o preenchimento para 7px no topo, 0 na direita, 8px em baixo e 35px na esquerda */
 }
 #categories a {
-  text-decoration: none;
-  color: #000000;
+  text-decoration: none; /* retira o sublinhado do link */
+  color: #000000; /* altera a cor da fonte para preto */
 }
 #categories a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* coloca sublinhado no link quando o mouse estiver em cima */
 }
 
 #collection {
-  background: #D4CAB6 bottom right url(images/person_bg.jpg) no-repeat;
+  background: #D4CAB6 bottom right url(images/person_bg.jpg) no-repeat; /* altera a cor de fundo para uma cor bege com uma imagem no canto inferior direito */
 }
 #collection .inner {
-  padding-right: 98px;
+  padding-right: 98px; /* adiciona um preenchimento de 98px na direita do elemento */
 }
 #minigal {
-  float: right;
-  width: 222px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  float: right; /* posiciona o elemento para a direita */
+  width: 222px; /* muda o tamanho da largura para 222px */
+  margin-top: 1em; /* altera a margem do topo para 1 em relação a fonte do elemento pai */
+  margin-bottom: 1em; /* altera a margem inferior para 1 em relação a fonte do elemento pai */
 }
 #minigal div {
-  float: left;
-  margin: 6px;
+  float: left; /* posiciona o elemento para a esquerda */
+  margin: 6px; /* adiciona uma margem de 6px para todos os lados */
 }
 #collection ul {
-  margin-left: 1.5em;
+  margin-left: 1.5em; /* adiciona uma margem a esquerda do elemento de 1.5 em relação a fonte do elemento pai */
 }
 #collection li {
-  margin: 0.2em 0;
-  color: #463F32;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "arial narrow", arial, sans-serif;
+  margin: 0.2em 0; /* margem de 0.2 em relação a fonte do elemento pai para a parte superior e inferior e retira a margem das laterais */
+  color: #463F32; /* muda a cor da fonte para marrom */
+  font-size: 16px; /* altera o tamanho da fonte para 16px */
+  font-weight: bold; /* deixa a fonte em negrito */
+  font-family: "arial narrow", arial, sans-serif; /* altera a fonte para arial narrow ou arial ou uma fonte da familia não serifada */
 }
 #collection p {
-  width: 103px;
-  margin-left: 1.5em;
+  width: 103px; /* altera o tamanho da largura para 103px */
+  margin-left: 1.5em; /* muda a margem esquerda para 1.5 em relação a fonte do elemento pai */
 }
 
 #seas-one, #seas-two, #seas-three {
-  height: 146px;
+  height: 146px; /* altera a altura para 146px */
 }
 
 #seas-one {
-  float: left;
-  width: 105px;
-  margin-right: 3px;
-  background: url(images/foot_1.jpg);
+  float: left; /* posiciona o elemento a esquerda */
+  width: 105px; /* altera o tamanho do elemento para 105px */
+  margin-right: 3px; /* altera a margem da direita para 3px */
+  background: url(images/foot_1.jpg); /* adiciona uma imagem de fundo */
 }
 #seas-two {
-  float: left;
-  width: 249px;
-  margin-right: 3px;
-  background: url(images/foot_2.jpg) no-repeat;
+  float: left; /* posiciona o elemento a esquerda */
+  width: 249px; /* altera o tamanho da largura para 249px */
+  margin-right: 3px; /* altera a margem da direita para 3px */
+  background: url(images/foot_2.jpg) no-repeat; /* adiciona uma imagem de fundo */
 }
 #seas-three {
-  float: left;
-  width: 222px;
-  background: url(images/foot_3.jpg) no-repeat;
+  float: left; /* posiciona o elemento a esquerda */
+  width: 222px; /* altera o tamanho da largura para 222px */
+  background: url(images/foot_3.jpg) no-repeat; /* adiciona uma imagem de fundo */
 }
 
 #seas p {
-  text-align: right;
-  color: #000;
-  margin: 80px 15px 0 0;
-  font-size: 23px;
-  font-weight: bold;
+  text-align: right; /* alinha o texto a direita */
+  color: #000; /* muda a cor do texto para branco */
+  margin: 80px 15px 0 0; /* adiciona uma margem de 80px no topo, 15px na direita, 0 inferior e 0 na esquerda do elemento */
+  font-size: 23px; /* altera o tamanho da fonte para 23px */
+  font-weight: bold; /* deixa a fonte em negrito */
 }
 #seas p.date {
-  margin-top: 0;
-  font-size: 16px;
+  margin-top: 0; /* retira a margem do topo */
+  font-size: 16px; /* altera o tamanho da fonte para 16px */
 }
 
 #copyright {
-  text-align: center;
-  font-size: 9px;
-  padding: 3px;
+  text-align: center; /* alinha o texto no centro */
+  font-size: 9px; /* altera o tamanho da fonte para 9px */
+  padding: 3px; /* altera o preenchimento para 3px em todos os lados */
 }
