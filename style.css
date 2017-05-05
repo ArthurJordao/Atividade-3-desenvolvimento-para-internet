@@ -1,266 +1,267 @@
 html, body, h1, h2, h3, h4, ul, li {
 	margin: 0;
+    padding: 0;
 padding:0 ;
 }
 h1 img {
-	display: ;
+	display: block;
 }
 img {
-	border:;
+	border:0;
 }
 a {
-	color: ;
+	color: #464544;
 }
 a:hover {
-	color: ;
+	color: #FFA405;
 }
 .left {
-	float: ;
+	float: left;
 }
 .right {
-	float: ;
+	float: right;
 }
 .more {
-	text-align: ;
+	text-align: right;
 }
 .clear {
-	clear: ;
+	clear: both;
 }
 
 body {
-	background: ;
-	text-align: ;
-	font: ;
-	color: ;
-	padding-bottom: ;
+	background: #504634;
+	text-align: center;
+	font: 11px verdana, arial, sans-serif;
+	color: #695F4c;
+	padding-bottom: 10px;
 }
 
 /** layout **/
 #wrapper {
-	text-align: ;
-	margin: ;
-	width: ;
-	background: ;
-  	position: ;
+	text-align: left;
+	margin: 37px auto;
+	width: 672px;
+	background: #FFFFFF;
+  	position: relative;
 	}
 
 #header {
-  background:;
-  height: ;
+  background: #D9D1BC url(images/header.jpg) no-repeat;
+  height: 266px;
 }
 #logo {
-  position: ;
-  top: ;
-  left: ;
-  width: ;
-  color: ;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  width: 170px;
+  color: #52616E;
 }
 #logo h1 {
-  font: ;
+  font: bold 24px "arial narrow", arial, sans-serif;
 }
 #logo p {
-  margin: ;
-  font-weight: ;
+  margin: 0;
+  font-weight: bold;
 }
 
 #cart {
-  position: ;
-  top: ;
-  left: ;
-  width: ;
-  background: ;
-  width: ;
+  position: absolute;
+  top: 10px;
+  left: 454px;
+  width: 208px;
+  background: #4B6360;
+  width: 209px;
 }
-#cart-top {  }
-#cart-bot {  }
-#cart-cart {  }
+#cart-top { background: url(images/cart_top.gif) no-repeat; }
+#cart-bot { background: bottom left url(images/cart_bot.gif) no-repeat; }
+#cart-cart { background: 9px 11px url(images/cart.gif) no-repeat; }
 #cart-cart {
-  padding: ;
-  color: ;
+  padding: 8px 8px 8px 60px;
+  color: white;
 }
 #cart p {
-  margin: ;
+  margin: 0;
 }
 #cart .orange {
-  color: ;
-  font-size: ;
+  color: #FFB400;
+  font-size: 10px;
 }
 #cart a {
-  color: ;
-  font-size: ;
+  color: white;
+  font-size: 10px;
 }
 
 #nav {
-  background: ;
-  position: ;
-  top: ;
-  left: ;
-  width: ;
-  padding: ;
-  text-align: ;
+  background: #4B5360;
+  position: absolute;
+  top: 101px;
+  left: 287;
+  width: 385px;
+  padding: 9px 0;
+  text-align: center;
 }
 #nav li {
-  list-style: ;
-  display: ;
-  color: ;
+  list-style: none;
+  display: inline;
+  color: #FFF;
 }
 #nav a {
-  text-decoration: ;
-  color: ;
+  text-decoration: none;
+  color: #FFF;
 }
 #gallery {
-  position: ;
-  top: ;
-  left: ;
-  width: ;
+  position: absolute;
+  top: 155px;
+  left: 287;
+  width: 385px;
 }
 #gallery li {
-  list-style: ;
-  text-indent: ;
-  float: ;
-  overflow: ;
-  height: ;
+  list-style: none;
+  text-indent: -999px;
+  float: left;
+  overflow: hidden;
+  height: 111px;
 }
 #gallery .gwomen {
-  background: ;
-  width: ;
+  background: url(images/pic_1.jpg) no-repeat;
+  width: 127px;
 }
 #gallery .gkids {
-  background: ;
-  width: ;
+  background: url(images/pic_2.jpg) no-repeat;
+  width: 130px;
 }
 #gallery .gmen {
-  background: ;
-  width: ;
+  background: url(images/pic_3.jpg) no-repeat;
+  width: 128px;
 }
 
 #body {
-  padding-top: ;
-  background-color:;
+  padding-top: 3px;
+  background-color #FFF:;
 }
 #categories {
-  float: ;
-  width: ;
+  float: left;
+  width: 195px;
 }
 #seasonal, #collection {
-  float: ;
-  width: ;
-  background: ;
-  margin-bottom: ;
+  float: right;
+  width: 474px;
+  background: #D4CAB6;
+  margin-bottom: 2px;
 }
 #seasonal .inner, #collection .inner {
-  padding: ;
+  padding: 6px 12px;
 }
 #seasonal p, #collection p {
-  margin: ;
+  margin: 0.9em 0;
 }
 
 .more a {
-  font-size: ;
-  color: ;
-  text-decoration: ;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
 }
 .more a:hover {
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 h3 {
-  font: ; 
-  color: ;
+  font: bold 14px "arial narrow", arial, sans-serif; 
+  color: #1B1812;
 }
 
 h2 {
-  font: ; 
-  color: ;
-  padding-bottom: ;
+  font: 18px "arial narrow", arial, sans-serif; 
+  color: #695F4C;
+  padding-bottom: 10px;
 }
 #categories h2 {
-  color: ;
-  padding: ;
-  background: ;
+  color: #FFF;
+  padding: 4px 0 5px 39px;
+  background: #847A67;
 }
 #categories li {
-  background: ;
-  border-top: ;
-  list-style: ;
-  font-size: ;
-  padding: ;
+  background: #D4CAB6 left url(images/bullet.gif) no-repeat; 
+  border-top: 1px solid #F4EFDF;
+  list-style: none;
+  font-size: 12px;
+  padding: 7px 0 8px 35px;
 }
 #categories a {
-  text-decoration: ;
-  color: ;
+  text-decoration: none;
+  color: #000000;
 }
 #categories a:hover {
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 #collection {
-  background: ;
+  background: #D4CAB6 bottom right url(images/person_bg.jpg) no-repeat;
 }
 #collection .inner {
-  padding-right: ;
+  padding-right: 98px;
 }
 #minigal {
-  float: ;
-  width: ;
-  margin-top: ;
-  margin-bottom: ;
+  float: right;
+  width: 222px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 #minigal div {
-  float: ;
-  margin: ;
+  float: left;
+  margin: 6px;
 }
 #collection ul {
-  margin-left: ;
+  margin-left: 1.5em;
 }
 #collection li {
-  margin: ;
-  color: ;
-  font-size: ;
-  font-weight: ;
-  font-family: ;
+  margin: 0.2em 0;
+  color: #463F32;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "arial narrow", arial, sans-serif;
 }
 #collection p {
-  width: ;
-  margin-left: ;
+  width: 103px;
+  margin-left: 1.5em;
 }
 
 #seas-one, #seas-two, #seas-three {
-  height: ;
+  height: 146px;
 }
 
 #seas-one {
-  float: ;
-  width: ;
-  margin-right: ;
-  background: ;
+  float: left;
+  width: 105px;
+  margin-right: 3px;
+  background: url(images/foot_1.jpg);
 }
 #seas-two {
-  float: ;
-  width: ;
-  margin-right: ;
-  background: ;
+  float: left;
+  width: 249px;
+  margin-right: 3px;
+  background: url(images/foot_2.jpg) no-repeat;
 }
 #seas-three {
-  float: ;
-  width: ;
-  background: ;
+  float: left;
+  width: 222px;
+  background: url(images/foot_3.jpg) no-repeat;
 }
 
 #seas p {
-  text-align: ;
-  color: ;
-  margin: ;
-  font-size: ;
-  font-weight: ;
+  text-align: right;
+  color: #000;
+  margin: 80px 15px 0 0;
+  font-size: 23px;
+  font-weight: bold;
 }
 #seas p.date {
-  margin-top: ;
-  font-size: ;
+  margin-top: 0;
+  font-size: 16px;
 }
 
 #copyright {
-  text-align: ;
-  font-size: ;
-  padding: ;
+  text-align: center;
+  font-size: 9px;
+  padding: 3px;
 }
