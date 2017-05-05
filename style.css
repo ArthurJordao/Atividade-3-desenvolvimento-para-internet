@@ -1,138 +1,138 @@
 html, body, h1, h2, h3, h4, ul, li {
-	margin: 0;
-    padding: 0;
+	margin: 0; /* zera as margens */
+    padding: 0; /* retira os paddings */ 
 padding:0 ;
 }
 h1 img {
-	display: block;
+	display: block; /* faz com que as imagens e h1 fiquem com uma linha completa */
 }
 img {
-	border:0;
+	border:0; /* retira as bordas das imagens */
 }
 a {
-	color: #464544;
+	color: #464544; /* troca cor dos links para um cinza */
 }
 a:hover {
-	color: #FFA405;
+	color: #FFA405; /* troca a cor do link quando o mouse estiver em cima do link */
 }
 .left {
-	float: left;
+	float: left; /* posiciona o elemento para a esquerda */
 }
 .right {
-	float: right;
+	float: right; /* posiciona o elemento para a direita */
 }
 .more {
-	text-align: right;
+	text-align: right; /* posiciona o texto a direita do elemento */
 }
 .clear {
-	clear: both;
+	clear: both; /* move os elementos floats que estão se sobrepondo para a direita ou para a esquerda */
 }
 
 body {
-	background: #504634;
-	text-align: center;
-	font: 11px verdana, arial, sans-serif;
-	color: #695F4c;
-	padding-bottom: 10px;
+	background: #504634; /* muda a cor de fundo para uma cor meio marrom */
+	text-align: center; /* alinha o texto para o centro */
+	font: 11px verdana, arial, sans-serif; /* altera a fonte e seu tamanho */
+	color: #695F4c; /* altera a cor para um marrom mais claro */
+	padding-bottom: 10px; /* adiciona um preenchimento de 10px na parte de baixo do elemento */
 }
 
 /** layout **/
 #wrapper {
-	text-align: left;
-	margin: 37px auto;
-	width: 672px;
-	background: #FFFFFF;
-  	position: relative;
+	text-align: left; /* deixa o alinhamento do texto para a esquerda */
+	margin: 37px auto; /* adiciona uma margem de 37px no topo e em baixo de elemento e deixa o navegador calcular a margem da lateral do elemento */
+	width: 672px; /* deixa o tamanho da largura com 672px */
+	background: #FFFFFF; /* muda a cor do plano de fundo para preto */
+  	position: relative; /* deixa a posição relativa ao elemento pai */
 	}
 
 #header {
-  background: #D9D1BC url(images/header.jpg) no-repeat;
-  height: 266px;
+  background: #D9D1BC url(images/header.jpg) no-repeat; /* muda a cor do cabeçalho da página e adiciona uma imagem */
+  height: 266px; /* configura o tamanho da altura do elemento para 266px */
 }
 #logo {
-  position: absolute;
-  top: 30px;
-  left: 300px;
-  width: 170px;
-  color: #52616E;
+  position: absolute; /* configura o logo para sua posição ser absuluta em relação a pagina */
+  top: 30px; /* move o logo 30px do topo de forma absoluta */
+  left: 300px; /* move o logo 300px da esquerda de forma absoluta */
+  width: 170px; /* deixa o tamanho da largura em 170px */
+  color: #52616E; /* muda a cor da fonte para um azul */
 }
 #logo h1 {
-  font: bold 24px "arial narrow", arial, sans-serif;
+  font: bold 24px "arial narrow", arial, sans-serif; /* muda a fonte para arial narrow ou arial ou uma fonte da familia nao serifada em negrito e 24px de tamanho */
 }
 #logo p {
-  margin: 0;
-  font-weight: bold;
+  margin: 0; /* retira a margem para todos os lados */
+  font-weight: bold; /* muda a fonte para negrito */
 }
 
 #cart {
-  position: absolute;
-  top: 10px;
-  left: 454px;
-  width: 208px;
-  background: #4B6360;
-  width: 209px;
+  position: absolute; /* altera a posição para ser absoluta e não relativa ao elemento pai */
+  top: 10px; /* deixa o elemento com 10px de distancia do topo */
+  left: 454px; /* deixa o elemento com 454px de distancia da esquerda */
+  width: 208px; /* altera largura para 208px */
+  background: #4B6360; /* altera a cor da fonte para verde */
+  width: 209px; /* altera o tamanho da largura para 209px */
 }
-#cart-top { background: url(images/cart_top.gif) no-repeat; }
-#cart-bot { background: bottom left url(images/cart_bot.gif) no-repeat; }
-#cart-cart { background: 9px 11px url(images/cart.gif) no-repeat; }
+#cart-top { background: url(images/cart_top.gif) no-repeat; } /* adiciona uma imagem para o elemento como fundo */
+#cart-bot { background: bottom left url(images/cart_bot.gif) no-repeat; } /* adiciona uma imagem para o elemento como fundo */
+#cart-cart { background: 9px 11px url(images/cart.gif) no-repeat; } /* adiciona uma imagem para o elemento como fundo */
 #cart-cart {
-  padding: 8px 8px 8px 60px;
-  color: white;
+  padding: 8px 8px 8px 60px; /* altera o padding para 8px no topo, na direita e em baixo e de 60 px para a esquerda do elemento */
+  color: white; /* altera a cor da fonte para branco */
 }
 #cart p {
-  margin: 0;
+  margin: 0; /* retira as margens do paragrafo */
 }
 #cart .orange {
-  color: #FFB400;
-  font-size: 10px;
+  color: #FFB400; /* altera a cor da fonte para laranja */
+  font-size: 10px; /* altera o tamanho da fonte para 10px */
 }
 #cart a {
-  color: white;
-  font-size: 10px;
+  color: white; /* altera a cor da fonte para branco */
+  font-size: 10px; /* altera o tamanho da fonte para 10px */
 }
 
 #nav {
-  background: #4B5360;
-  position: absolute;
-  top: 101px;
-  left: 287;
-  width: 385px;
-  padding: 9px 0;
+  background: #4B5360; /* altera a cor de fundo para um azul */
+  position: absolute; /* altera a posição do elemento para absoluto */
+  top: 101px; /* da uma distancia de 101px do elemento ao elemento pai */
+  left: 287; /* altera a distancia para 287px do elemento pai */
+  width: 385px; /* altera a largura para 385px */
+  padding: 9px 0; /* altera o preenchimento para 9px no topo e na parte inferior do elemento e retira o preenchimento das laterais do elemento */
   text-align: center;
 }
 #nav li {
-  list-style: none;
-  display: inline;
-  color: #FFF;
+  list-style: none; /* retira o estilo da lista */
+  display: inline; /* deixa a lista ficar na mesma linha */
+  color: #FFF; /* altera a cor da fonte para branco */
 }
 #nav a {
-  text-decoration: none;
-  color: #FFF;
+  text-decoration: none; /* retira o sublinhado do anchors */
+  color: #FFF; /* deixa a cor da fonte como branco */
 }
 #gallery {
-  position: absolute;
-  top: 155px;
-  left: 287;
-  width: 385px;
+  position: absolute; /* deixa a posição absoluta */
+  top: 155px; /* move o elemento em 155px do topo do elemento pai */
+  left: 287; /* move o elemento em 287 do topo do elemento pai */
+  width: 385px; /* altera a largura do elemento para 385px */
 }
 #gallery li {
-  list-style: none;
-  text-indent: -999px;
-  float: left;
-  overflow: hidden;
-  height: 111px;
+  list-style: none; /* retira o estilo da lista */
+  text-indent: -999px; /* coloca o texto para vira a 90 graus a esquerda */
+  float: left; /* posiciona o elemento a esquerda */
+  overflow: hidden; /* quando um elemento fica em cima dele ele desaparece da página */
+  height: 111px; /* muda o tamanho para 111px */
 }
 #gallery .gwomen {
-  background: url(images/pic_1.jpg) no-repeat;
-  width: 127px;
+  background: url(images/pic_1.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  width: 127px; /* altera o tamanho da largura do elemento para 127px */
 }
 #gallery .gkids {
-  background: url(images/pic_2.jpg) no-repeat;
-  width: 130px;
+  background: url(images/pic_2.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  width: 130px; /* altera o tamanho da largura do elemento para 130px */
 }
 #gallery .gmen {
-  background: url(images/pic_3.jpg) no-repeat;
-  width: 128px;
+  background: url(images/pic_3.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  width: 128px; /* altera o tamanho da largura do element para 128px */
 }
 
 #body {
