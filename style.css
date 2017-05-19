@@ -100,7 +100,7 @@ body {
   left: 287; /* altera a distancia para 287px */
   width: 385px; /* altera a largura para 385px */
   padding: 9px 0; /* altera o preenchimento para 9px no topo e na parte inferior do elemento e retira o preenchimento das laterais do elemento */
-  text-align: center;
+  text-align: center; /* alinha o texto no centro */
 }
 #nav li {
   list-style: none; /* retira o estilo da lista */
