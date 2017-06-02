@@ -47,9 +47,10 @@ body {
 	}
 
 #header {
-  background: #D9D1BC url(images/header.jpg) no-repeat; /* muda a cor do cabeçalho da página e adiciona uma imagem */
+  background: #D9D1BC url(images/lojas-marisa-original.png) no-repeat; /* muda a cor do cabeçalho da página e adiciona uma imagem */
   height: 266px; /* configura o tamanho da altura do elemento para 266px */
   border-radius: 30px; /* deixa os cantos arredondados */
+  background-size: 266px;
 }
 #logo {
   position: absolute; /* configura o logo para sua posição ser absuluta em relação a pagina */
@@ -125,16 +126,19 @@ body {
   height: 111px; /* muda o tamanho para 111px */
 }
 #gallery .gwomen {
-  background: url(images/pic_1.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  background: url(images/woman.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
   width: 127px; /* altera o tamanho da largura do elemento para 127px */
+  background-size: 127px;
 }
 #gallery .gkids {
-  background: url(images/pic_2.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  background: url(images/man.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
   width: 130px; /* altera o tamanho da largura do elemento para 130px */
+  background-size: 130px;
 }
 #gallery .gmen {
-  background: url(images/pic_3.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
+  background: url(images/kid.jpg) no-repeat; /* adiciona uma imagem no fundo do elemento */
   width: 128px; /* altera o tamanho da largura do element para 128px */
+  background-size: 128px;
 }
 
 #body {
