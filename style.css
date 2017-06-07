@@ -1,7 +1,6 @@
 html, body, h1, h2, h3, h4, ul, li {
 	margin: 0; /* zera as margens */
-    padding: 0; /* retira os paddings */ 
-padding:0 ;
+    padding: 0; /* retira os paddings */
 }
 h1 img {
 	display: block; /* faz com que as imagens e h1 fiquem com uma linha completa */
@@ -50,7 +49,7 @@ body {
   background: #D9D1BC url(images/lojas-marisa-original.png) no-repeat; /* muda a cor do cabeçalho da página e adiciona uma imagem */
   height: 266px; /* configura o tamanho da altura do elemento para 266px */
   border-radius: 30px; /* deixa os cantos arredondados */
-  background-size: 266px;
+  background-size: 266px; /* muda o tamanho do plano de fundo */
 }
 #logo {
   position: absolute; /* configura o logo para sua posição ser absuluta em relação a pagina */
@@ -73,7 +72,6 @@ body {
   left: 454px; /* deixa o elemento com 454px de distancia da esquerda */
   width: 208px; /* altera largura para 208px */
   background: #4B6360; /* altera a cor da fonte para verde */
-  width: 209px; /* altera o tamanho da largura para 209px */
 }
 #cart-top { background: url(images/cart_top.gif) no-repeat; } /* adiciona uma imagem para o elemento como fundo */
 #cart-bot { background: bottom left url(images/cart_bot.gif) no-repeat; } /* adiciona uma imagem para o elemento como fundo */
@@ -98,7 +96,7 @@ body {
   background: #4B5360; /* altera a cor de fundo para um azul */
   position: absolute; /* altera a posição do elemento para absoluto */
   top: 101px; /* da uma distancia de 101px */
-  left: 287; /* altera a distancia para 287px */
+  left: 287px; /* altera a distancia para 287px */
   width: 385px; /* altera a largura para 385px */
   padding: 9px 0; /* altera o preenchimento para 9px no topo e na parte inferior do elemento e retira o preenchimento das laterais do elemento */
   text-align: center; /* alinha o texto no centro */
@@ -115,7 +113,7 @@ body {
 #gallery {
   position: absolute; /* deixa a posição absoluta */
   top: 155px; /* move o elemento em 155px do topo */
-  left: 287; /* move o elemento em 287 do topo */
+  left: 287px; /* move o elemento em 287 do topo */
   width: 385px; /* altera a largura do elemento para 385px */
 }
 #gallery li {
@@ -143,7 +141,7 @@ body {
 
 #body {
   padding-top: 3px; /* adiciona um preenchimento de 3px no topo */
-  background-color #FFF; /* muda a cor de fundo para preto */ 
+  background-color: #FFF; /* muda a cor de fundo para preto */
 }
 #categories {
   float: left; /* posiciona o elemento para a esquerda */
